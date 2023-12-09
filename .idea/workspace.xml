@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bf2a8ca-c27e-475c-a7ff-3f3b722f7142" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/recursion/Recursion1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/notation/BigO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/Recursion2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/recursion/Recursion1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/recursion/Recursion1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

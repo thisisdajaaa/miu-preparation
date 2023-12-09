@@ -20,7 +20,6 @@ public class Recursion1 {
     }
 
     // 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
-
     public static int fibonacci(int n) {
         if (n < 0) return -1;
         if (n == 0 || n == 1) return n;
@@ -64,6 +63,6 @@ public class Recursion1 {
     }
 
     public static void main(String[] args) {
-        System.out.println(fibonacci(3));
+        System.out.println(factorial(3));
     }
 }
