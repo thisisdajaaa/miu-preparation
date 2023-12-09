@@ -35,10 +35,33 @@ public class BigO {
         return items;
     }
 
+    public static double findUniq(double arr[]) {
+        Map<Double, Integer> numMap = new HashMap<>();
+        double temp = 0.0;
+
+        for (double v : arr) {
+            numMap.put(v, numMap.containsKey(v) ? numMap.get(v) + 1 : 1);
+        }
+
+        System.out.println(numMap);
+
+        for(Map.Entry<Double, Integer> num: numMap.entrySet()) {
+            Integer value = num.getValue();
+            Double key = num.getKey();
+
+            if (value == 1) {
+                temp = key;
+            }
+        }
+
+        return temp;
+    }
+
     public static void main(String[] args) {
         int[] sample = new int[] {1, 3, 4};
+        double[] gg = new double[]{1, 1, 1, 2, 1, 1};
 
-        System.out.println(getArrayPairs(sample));
+        System.out.println(findUniq(gg));
 
     }
 }
