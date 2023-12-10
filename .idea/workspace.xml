@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bf2a8ca-c27e-475c-a7ff-3f3b722f7142" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arrays/Array1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrays/SingleDimensionArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/Array2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/TwoDimensionalArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notation/BigO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/notation/BigO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
