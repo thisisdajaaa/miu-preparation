@@ -1,15 +1,15 @@
 package linkedlist;
 
-public class SingleLinkedList {
+public class CircularSinglyLinkedList {
     public Node head;
     public Node tail;
     public int size;
 
 
-    public void createSingleLinkedList(int nodeValue) {
+    public void createCircularSinglyLinkedList(int value) {
         Node node = new Node();
-        node.next = null;
-        node.value = nodeValue;
+        node.next = node;
+        node.value = value;
         head = node;
         tail = node;
         size = 1;
@@ -19,35 +19,26 @@ public class SingleLinkedList {
         Node node = new Node();
         node.value = nodeValue;
 
-        // No head / initial creation
         if (head == null) {
-            createSingleLinkedList(nodeValue);
+            createCircularSinglyLinkedList(nodeValue);
             return;
-            // If attempting to replace head node
         } else if (location == 0) {
-            System.out.println("GG1");
             node.next = head;
             head = node;
-            // If attempting to insert at last node
+            tail.next = head;
         } else if (location >= size) {
-            System.out.println("GG2");
-            node.next = null;
-            tail.next = node; // previous last tail is now pointing to added node
+            node.next = head;
+            tail.next = node;
             tail = node;
-            // If attempting to insert at a specific location
         } else {
-            System.out.println("GG3");
             Node tempNode = head;
             int index = 0;
 
-            // gets the node that is before the specified location
             while (index < location - 1) {
                 tempNode = tempNode.next;
                 index++;
             }
 
-
-            // insert node in between the beforeNode and afterNode
             Node nextNode = tempNode.next;
             tempNode.next = node;
             node.next = nextNode;
@@ -58,57 +49,75 @@ public class SingleLinkedList {
 
     public void traverseLinkedList() {
         if (head == null) {
-            System.out.println("SLL does not exist");
+            System.out.println("CSLL does not exist");
             return;
         }
+        Node tempNode = head;
 
-        Node currentNode = head;
+        do {
+            System.out.print(tempNode.value + " -> ");
+            tempNode = tempNode.next;
+        } while (tempNode != head);
 
-        while (currentNode != null) {
-            System.out.print(currentNode.value);
-            if (currentNode.next != null) System.out.print(" -> ");
-            currentNode = currentNode.next;
-        }
     }
 
-    public Node findNode(int value) {
+    public Node findNodeByIndex(int index) {
+        Node tempNode = head;
+        int idx = 0;
+
+        while (idx != index) {
+            tempNode = tempNode.next;
+            idx++;
+        }
+
+        return tempNode;
+    }
+
+    public Node findNodeByValue(int value) {
         Node currentNode = head;
         Node foundNode = null;
 
-        while (currentNode != null) {
+        do {
             if (currentNode.value == value) {
                 foundNode = currentNode;
                 break;
             }
 
             currentNode = currentNode.next;
-        }
+        } while (currentNode != head);
 
         return foundNode;
     }
 
     public void removeNode(int location) {
-        if (head == null) { // Check if the list is empty
+        if (head == null) {
             return;
         }
 
         if (location == 0) {
-            head = head.next;
-            if (head == null) { // List had only one node
-                tail = null;
-            }
-        } else {
-            Node tempNode = head;
-            for (int i = 0; i < location - 1 && tempNode.next != null; i++) {
-                tempNode = tempNode.next;
+            if (size > 1) {
+                head = head.next;
+                tail.next = head;
+            } else {
+                removeAll();
             }
 
-            if (tempNode.next != null) {
-                tempNode.next = tempNode.next.next;
-                if (location == size - 1) { // Removing the tail node
-                    tail = tempNode;
-                }
+        } else {
+            Node tempNode = head;
+            int index = 0;
+
+            while (index < location - 1) {
+                tempNode = tempNode.next;
+                index++;
             }
+
+            if (location == size - 1) {
+                tail = tempNode;
+                tail.next = head;
+            } else {
+                tempNode.next = tempNode.next.next;
+            }
+
         }
 
         if (size > 0) {
@@ -116,8 +125,9 @@ public class SingleLinkedList {
         }
     }
 
-    public void removeAllNode() {
+    public void removeAll() {
         head = null;
+        tail.next = null;
         tail = null;
         size = 0;
     }
