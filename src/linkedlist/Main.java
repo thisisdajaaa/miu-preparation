@@ -11,10 +11,16 @@ public class Main {
 //
 //        singleLinkedList.removeAllNode();
 //        singleLinkedList.traverseLinkedList();
+//
+//        CircularSinglyLinkedList circularSinglyLinkedList = new CircularSinglyLinkedList();
+//        circularSinglyLinkedList.insertInLinkedList(1, 0);
+//        circularSinglyLinkedList.removeNode(0);
+//        circularSinglyLinkedList.traverseLinkedList();
 
-        CircularSinglyLinkedList circularSinglyLinkedList = new CircularSinglyLinkedList();
-        circularSinglyLinkedList.insertInLinkedList(1, 0);
-        circularSinglyLinkedList.removeNode(0);
-        circularSinglyLinkedList.traverseLinkedList();
+        DoublyLinkedList doublyLinkedList = new DoublyLinkedList();
+        doublyLinkedList.insert(1, 0);
+        doublyLinkedList.removeNode(0);
+        doublyLinkedList.removeAllNode();
+        doublyLinkedList.traverseLinkedList();
     }
 }

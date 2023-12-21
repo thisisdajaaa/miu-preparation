@@ -80,7 +80,7 @@ public class Recursion2 {
         String[] tower = towerBuilder(3);
         char[] c = new char[] {'b', 'c', 'd'};
         int[] arr = new int[] {1, 2, 3, 4};
-        System.out.println(findMaxNumRec(arr, 4));
+        System.out.println(getGCD(48, 18));
 
     }
 }
