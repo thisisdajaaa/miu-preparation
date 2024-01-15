@@ -2,8 +2,7 @@ package miu_practice;
 
 import linkedlist.Node;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Main {
     public static List<String> removeDuplicates(String[] array) {
@@ -41,23 +40,134 @@ public class Main {
         return flag;
     }
 
+    public static int isOddElementsCentered(int[] array) {
+        if (array.length % 2 == 0) {
+            return 0;
+        }
+
+        double centeredDouble = (double) array.length / 2;
+        int centeredIndex = (int) Math.floor(centeredDouble);
+
+        int min = array[centeredIndex];
+
+        Set<Integer> items = new HashSet<>();
+
+        for (int j : array) {
+            items.add(j);
+        }
+
+        Arrays.sort(array);
+
+        if (array[0] == min && items.size() == array.length) {
+            return 1;
+        } else {
+            return 0;
+        }
+    }
+
+    public static int getDifferenceOfOddAndEven(int[] array) {
+        List<Integer> odds = new ArrayList<>();
+        List<Integer> evens = new ArrayList<>();
+
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] % 2 == 0) {
+                evens.add(array[i]);
+            } else {
+                odds.add(array[i]);
+            }
+        }
+
+        int totalOfOdds = 0;
+        int totalOfEven = 0;
+
+        for (Integer odd : odds) {
+            totalOfOdds += odd;
+        }
+
+        for (Integer even : evens) {
+            totalOfEven += even;
+        }
+
+        return totalOfOdds - totalOfEven;
+    }
+
+    public static char[] spliced(char[ ] array, int start, int len) {
+        if (array.length < len || start > array.length || array.length < (start + len) || start < 0 || len < 0) {
+            return null;
+        }
+
+        if (len == 0) {
+            return new char[]{};
+        }
+
+
+        List<Character> splicedList = new ArrayList<>();
+
+        for (int i = start; i < array.length; i++) {
+                splicedList.add(array[i]);
+        }
+
+
+        if (splicedList.isEmpty()) return null;
+
+        return splicedList.toString().toCharArray();
+    }
+
+    public static int getReverse(int number) {
+        StringBuilder currNumber = new StringBuilder(Integer.toString(Math.abs(number)));
+        int finalNum = Integer.parseInt(String.valueOf(currNumber.reverse()));
+
+        return number < 0 ? Integer.parseInt("-" + Integer.toString(finalNum)) : finalNum;
+    }
+
+    public static int[] getDuplicates(int[] array1, int[] array2) {
+        if (array1 == null || array2 == null) {
+            return null;
+        }
+
+        List<Integer> duplicates = new ArrayList<>();
+
+        for (int i = 0; i < array1.length; i++) {
+            for (int j = 0; j < array2.length; j++) {
+                if (array1[i] == array2[j]) {
+                    duplicates.add(array1[i]);
+                }
+            }
+        }
+
+        System.out.println(duplicates.toString());
+
+
+        return duplicates.stream().mapToInt(i -> i).toArray();
+    }
+
+    public static int findPOE(int[] array) {
+        int totalSum = 0;
+        int leftSum = 0;
+
+        for (int j : array) {
+            totalSum += j;
+        }
+
+        for (int i = 0; i < array.length; i++) {
+            totalSum -= array[i];
+
+            if (totalSum == leftSum) {
+                return i;
+            }
+
+            leftSum += array[i];
+
+        }
+
+        return -1;
+    }
+
+
+
     public static void main(String[] args) {
-//        PLinkedList linkedList = new PLinkedList();
-//        PNode node1 = new PNode();
-//        node1.value = 1;
-//        linkedList.add(node1);
-//
-//        PNode node2 = new PNode();
-//        node2.value = 2;
-//        linkedList.add(node2);
-//
-//        PNode node3 = new PNode();
-//        node3.value = 3;
-//        linkedList.add(node3);
-//
-//        linkedList.print();
-//        System.out.println(linkedList.find(node3));
-        int[] items = new int[]{5, 1, 23, 21, 17, 2, 3, 9, 12};
-        testForSum(items, 22);
+       int[] list = new int[]{1, 2, 3};
+        System.out.println(findPOE(list));
+
     }
 }
