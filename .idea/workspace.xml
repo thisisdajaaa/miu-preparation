@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bf2a8ca-c27e-475c-a7ff-3f3b722f7142" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_2/Centered.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_2/FancyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_2/GuthrieSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_2/MadhavArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_practice_2/MiraArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_practice_2/MostOccurence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_practice_2/POEArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_practice_2/PerfectSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_practice_2/PorcupineNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_practice_2/PrimeCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_practice_2/ReverseInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_practice_2/SquarePairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_practice_2/StantonMeasure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
