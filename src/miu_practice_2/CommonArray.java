@@ -20,10 +20,10 @@ public class CommonArray {
             return null;
         }
 
-        for (int i = 0; i < array1.length; i++) {
-            for (int j = 0; j < array2.length; j++) {
-                if (array1[i] == array2[j]) {
-                    common.add(array1[i]);
+        for (int k : array1) {
+            for (int i : array2) {
+                if (k == i) {
+                    common.add(k);
                 }
             }
         }
@@ -35,7 +35,7 @@ public class CommonArray {
     }
 
     public static void main(String[] args) {
-        int[] array1 = new int[] {1,2};
+        int[] array1 = new int[] {3,6};
         int[] array2 = new int[] {3,6} ;
 
         for (int i = 0; i < getCommonArray(array1, array2).length; i++) {

@@ -1,7 +1,7 @@
-package miu_practice_2;
+package miu_practice_again;
 
 public class MadhavArray {
-//	A Madhav array has the following property.
+    //	A Madhav array has the following property.
 //	a[0] = a[1] + a[2] = a[3] + a[4] + a[5] = a[6] + a[7] + a[8] + a[9] = ...
 //	The length of a Madhav array must be n*(n+1)/2 for some n.
 //	Write a method named isMadhavArray that returns 1 if its array argument is a Madhav array,
@@ -27,7 +27,7 @@ public class MadhavArray {
 //	| {3,1,2,3,0}                       | 0     | The length of the array is 5, but 5 != n*(n+1)/2  |
 //	 -----------------------------------|-------|---------------------------------------------------
 
-    public static int isMadhav(int[] array) {
+    public static int isMadhavArray(int[] array) {
         if (array.length < 3) {
             return 0;
         }
@@ -45,8 +45,8 @@ public class MadhavArray {
         }
 
         int currentTemp = array[0];
-        int sum = 0;
         int count = 2;
+        int sum = 0;
         int indexCheck = 2;
 
         for (int i = 1; i < array.length; i++) {
@@ -59,15 +59,17 @@ public class MadhavArray {
                     sum = 0;
                     count = count + 1;
                     indexCheck = count + i - 1;
-                    sum += array[i];
+                    sum+= array[i];
                 }
             }
         }
+
 
         return currentTemp == sum ? 1 : 0;
     }
 
     public static void main(String[] args) {
-        System.out.println(isMadhav(new int[] {6,2,4,2,2,2,1,5,0,0}));
+        System.out.println(isMadhavArray(new int[] {6,2,4,2,2,2,1,5,0,0}));
     }
+
 }

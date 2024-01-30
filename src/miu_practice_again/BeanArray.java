@@ -1,4 +1,4 @@
-package miu_practice_2;
+package miu_practice_again;
 
 public class BeanArray {
     //	A Bean array is defined to be an integer array where for every value n in the array,
@@ -12,34 +12,28 @@ public class BeanArray {
 //	otherwise it returns a 0.
 //	if you are programming in Java or C#, the function signature is int isBean(int[] a)
 
-    public static int isBean(int[] array) {
+    public static int isBeanArray(int[] array) {
         boolean flag = false;
-
-        if (array.length == 1 && array[0] == 0) {
-            return 1;
-        }
 
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array.length; j++) {
                 if (i != j) {
-                    if (array[j] == array[i] * 2 || array[j] == array[i] * 2 + 1 || array[j] == array[i] / 2) {
+                    if ((2 * array[i] == array[j]) || (2 * array[i] + 1  == array[j]) || (array[i] / 2 == array[j])) {
                         flag = true;
-                        continue;
                     }
                 }
-
             }
 
             if (!flag) {
-                break;
+                return 0;
             }
         }
 
-        return flag ? 1 : 0;
+
+        return 1;
     }
 
     public static void main(String[] args) {
-        int[] array = new int[]{4,9,8};
-        System.out.println(isBean(array));
+        System.out.println(isBeanArray(new int[] {3,8,4}));
     }
 }

@@ -1,4 +1,4 @@
-package miu_practice_2;
+package miu_practice_again;
 
 public class PorcupineNumber {
     //	A prime number is an integer that is divisible only by 1 and itself. A porcupine number is a prime
@@ -6,7 +6,7 @@ public class PorcupineNumber {
 //	For example 139 is a porcupine number because:
 //	a - it is prime
 //	b - it ends in a 9
-//	c - The next prime number after it is 149 which also ends in 9.
+//	c - The next prime number after it is 149 which also ends in 9. So 149's next prime number should be a prime, if it ends with 9, return the porcuopine number but if it doesnt, continue searching
 //	Note that 140, 141, 142, 143, 144, 145, 146, 147, and 148 are not prime so 149 is the next prime
 //	number after 139.
 //
@@ -22,44 +22,48 @@ public class PorcupineNumber {
 //	it returns 0. e.g isPrime(7) returns 1 and isPrime(8) returns 0.
 //	Hint: Use modulo base 10 arithmetic to get last digit of a number.
 
-    public static int isPrime(int n) {
+    public static boolean isPrime(int n) {
         if (n < 2) {
-            return 0;
+            return false;
         }
+
         for (int i = 2; i <= Math.sqrt(n); i++) {
-            if (n % i == 0) {
-                return 0;
-            }
+            if (n % i == 0) return false;
         }
-        return 1;
+
+        return true;
     }
 
-    public static boolean has9InLast(int n) {
-        return (n % 10) == 9;
-    }
+    public static boolean hasLast9Digit(int n) { return n % 10 == 9; }
 
-    public static int findPorcupineNumber(int n) {
-        int currentNum = n + 1;
+    public static int isPorcupineNumber(int n) {
+       int nextNum = n + 1;
 
-        while (true) {
-            if (isPrime(currentNum) == 1 && has9InLast(currentNum)) {
-                // Found a prime number ending with 9, now find the next prime
-                int nextPrime = currentNum + 1;
-                while (true) {
-                    if (isPrime(nextPrime) == 1) {
-                        if (has9InLast(nextPrime)) {
-                            return currentNum; // Found the porcupine number
-                        }
-                        break; // Next prime doesn't end with 9, restart search
-                    }
-                    nextPrime++;
-                }
-            }
-            currentNum++;
-        }
+       while (true) {
+           if (isPrime(nextNum) && hasLast9Digit(nextNum)) {
+               int nextPrime = nextNum + 1;
+
+               while (true) {
+                   if (isPrime(nextPrime)) {
+                       if (hasLast9Digit(nextPrime)) {
+                           return nextNum;
+                       } else {
+                           break;
+                       }
+                   }
+
+                   nextPrime++;
+               }
+           }
+
+           nextNum++;
+       }
+
     }
 
     public static void main(String[] args) {
-        System.out.println(findPorcupineNumber(139));
+        System.out.println(isPorcupineNumber(139));
+        System.out.println(isPrime(179));
     }
+
 }
