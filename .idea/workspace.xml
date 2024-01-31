@@ -5,42 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bf2a8ca-c27e-475c-a7ff-3f3b722f7142" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/LongestUniqueSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Reverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_again/Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_again/BeanArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_again/Centered.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_again/CharArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_again/CommonArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_again/FancyArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_again/GuthrieSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_again/MadhavArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_again/MercurialArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_again/MiraArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_again/MostOccurrence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_again/POEArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_again/PerfectSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_again/PorcupineNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_again/PrimeCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_again/ReverseInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_again/SameFactors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_again/SquarePairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_again/StantonMeasure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_again/SubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_again/SumEvenOdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_again/SymmetricArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_again/TwoConditions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_again/TwoSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_again/UpCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_practice_again/is235Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_test_practice/BalanceExtremes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_test_practice/HighestExponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_test_practice/OneArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/CircularDoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/CountSquarePairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/GuthrieSequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/Inertial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/MadhavArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/NUpCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/NextPerfectSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/PorcupineNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/PrimeCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/StantonMeasure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_practice/DecimalToBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_practice/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_practice/Fibonnaci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_practice/GCD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_practice/PowerOfNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_practice/SumOfDigits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/miu_practice_2/BeanArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/miu_practice_2/BeanArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/miu_practice_2/CommonArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/miu_practice_2/CommonArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/miu_practice_2/MadhavArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/miu_practice_2/MadhavArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/miu_practice_2/PorcupineNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/miu_practice_2/PorcupineNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,11 +104,6 @@
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/miu_practice_again/SubArray.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/miu_practice_again/SymmetricArray.java</url>
           <line>30</line>
           <option name="timeStamp" value="22" />
@@ -136,6 +112,20 @@
           <url>file://$PROJECT_DIR$/src/miu_practice_again/SymmetricArray.java</url>
           <line>31</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/miu_againn/StantonMeasure.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/miu_practice/Factorial.java</url>
+          <line>12</line>
+          <properties class="miu_practice.Factorial" method="factorial">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
