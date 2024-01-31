@@ -26,3 +26,11 @@ public class StantonMeasure {
         System.out.println(isStantonMeasure(new int[]  {1, 4, 3, 2, 1, 2, 3, 2} ));
     }
 }
+
+//sum of range = n * n + 1 / 2
+//sum of digits = f(n / 10) + n % 10
+//factorial = n * f(n - 1)
+//power = n * f(n, times - 1)
+//GCD = f(b, a % b)
+//fibonnaci = f(n - 1) + f(n -2)
+//decToBin = n % 2 + (10 * f(n / 2))
