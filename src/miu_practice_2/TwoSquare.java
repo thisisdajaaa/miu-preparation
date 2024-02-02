@@ -14,10 +14,10 @@ public class TwoSquare {
     public static int isTwoSquare(int n) {
         int count = 0;
 
-        for (int i = 1; i <=n; i++) {
-            for (int j = 1; j <= n ; j++) {
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n; j++) {
                 if (count == 2) break;
-
+                
                 if ((int) Math.pow(i, 2) + (int) Math.pow(j, 2) == n) {
                     count++;
                 }

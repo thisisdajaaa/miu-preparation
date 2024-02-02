@@ -17,14 +17,25 @@ public class MiraArray {
 
     public static int isMiraArray(int[] array) {
         List<Integer> container = new ArrayList<>();
+        boolean hasOne = false;
+        boolean hasNine = false;
 
         for (int j : array) {
-            if (j == 1 || j == 9) {
-                container.add(j);
+            if (j == 1) {
+                hasOne = true;
             }
+
+            if (j == 9) {
+                hasNine = true;
+            }
+
+            if (hasOne && hasNine) {
+                break;
+            }
+
         }
 
-        return container.contains(1) && container.contains(9) ? 1 : 0;
+        return hasOne && hasNine ? 1 : 0;
     }
 
     public static void main(String[] args) {

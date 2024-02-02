@@ -15,16 +15,13 @@ public class BeanArray {
     public static int isBean(int[] array) {
         boolean flag = false;
 
-        if (array.length == 1 && array[0] == 0) {
-            return 1;
-        }
-
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array.length; j++) {
                 if (i != j) {
-                    if (array[j] == array[i] * 2 || array[j] == array[i] * 2 + 1 || array[j] == array[i] / 2) {
-                        flag = true;
-                        continue;
+                    if (array[j] != array[i] * 2 && array[j] != array[i] * 2 + 1 && array[j] != array[i] / 2) {
+                        return 0;
+                    } else {
+                        break;
                     }
                 }
 
@@ -35,11 +32,11 @@ public class BeanArray {
             }
         }
 
-        return flag ? 1 : 0;
+        return 1;
     }
 
     public static void main(String[] args) {
-        int[] array = new int[]{4,9,8};
+        int[] array = new int[]{3, 8, 4};
         System.out.println(isBean(array));
     }
 }

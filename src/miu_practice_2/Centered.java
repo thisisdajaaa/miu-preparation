@@ -31,16 +31,13 @@ public class Centered {
         int centeredIndex = array.length / 2;
         int centeredElement = array[centeredIndex];
 
-        boolean flag = true;
-
         for (int i = 0; i < array.length; i++) {
             if (centeredElement >= array[i] && i != centeredIndex) {
-                flag = false;
-                break;
+               return 0;
             }
         }
 
-        return flag ? 1 : 0;
+        return 1;
     }
 
     public static void main(String[] args) {
