@@ -5,24 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bf2a8ca-c27e-475c-a7ff-3f3b722f7142" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/miu_againn/AnotherBunker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_againn/AnotherPractice1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_againn/AnotherPractice2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_againn/AnotherPractice3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_againn/AnotherPractice4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_againn/AnotherPractice5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_againn/AnotherPractice6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_againn/AnotherPractice7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_againn/Bean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_againn/Bunker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_againn/Continuous.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_againn/CountDigit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_againn/MeeraNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_againn/Miera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_againn/NiceArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_againn/TwinPrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/AnotherBalanced.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/AnotherBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/AnotherCentered.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/AnotherDual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/AnotherMiera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/AnotherMiera2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/ArrayOfPossibilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/Complete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/DualArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/FactorEqual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/FancyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/Fibo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/FilterArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/MrBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/NewMeera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/Nice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/NormalNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/OddHeavy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/PowerOf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/SetEqual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/SmartNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/miu_againn/TripleArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/miu_againn/BeanArray.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,11 +134,6 @@
           <line>7</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/miu_againn/TwinPrime.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/miu_practice/Factorial.java</url>
           <line>12</line>
@@ -151,6 +151,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/miu_againn/PowerOf.java</url>
+          <line>3</line>
+          <properties class="miu_againn.PowerOf" method="isPowerOf">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
