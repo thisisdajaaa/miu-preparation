@@ -5,55 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bf2a8ca-c27e-475c-a7ff-3f3b722f7142" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/miu_againn/DaphneArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/miu_againn/FactorTwoCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/employee_practice/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/employee_practice/EmployeeManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/employee_practice/Engineer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/employee_practice/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/employee_practice/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/problem1/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/problem1/EmployeeAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/problem1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/problem2/EmployeeData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/problem2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/problem2/Staff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/problem2/Statistics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/problem2/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/problem_jan_2017/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/problem_jan_2017/AccountManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/problem_jan_2017/CheckingAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/problem_jan_2017/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/problem_jan_2017/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/problem_jan_2017/RetirementAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/problem_jan_2017/SavingsAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/shapes/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/shapes/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/shapes/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/shapes/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/shapes/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/vehicle_system/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/vehicle_system/Garage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/vehicle_system/Motorcycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polymorphism/vehicle_system/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/CalculateSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/Exponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/Fibo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/GCD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/Occurrence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/Permutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/Recursion3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/RemoveLetterInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/RemoveWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/SumOfOdds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/findMaximum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/getTotalProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/isArrayAscending.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/stringLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/sumOfDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/Subseq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursion/Subset.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -183,6 +136,11 @@
           <url>file://$PROJECT_DIR$/src/recursion/Permutation.java</url>
           <line>7</line>
           <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recursion/Subset.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/miu_practice/Factorial.java</url>
