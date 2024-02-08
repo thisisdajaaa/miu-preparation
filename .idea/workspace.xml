@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bf2a8ca-c27e-475c-a7ff-3f3b722f7142" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/recursion/Subseq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/Subset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,16 +132,6 @@
           <line>7</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/recursion/Permutation.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/recursion/Subset.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/miu_practice/Factorial.java</url>
           <line>12</line>
@@ -168,15 +158,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/recursion/Permutation.java</url>
-          <line>12</line>
-          <properties class="recursion.Permutation" method="generatePermutationsHelper">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
