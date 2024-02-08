@@ -1,8 +1,8 @@
 package stack;
 
 public class Stack {
-    int[] stack = new int[5];
-    int top = 0;
+    private int[] stack = new int[5];
+    private int top = 0;
 
     public void push(int data) {
         if (top >= 5) {

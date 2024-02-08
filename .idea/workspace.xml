@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bf2a8ca-c27e-475c-a7ff-3f3b722f7142" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stack/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queue/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queue/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,72 +89,77 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/miu_practice_again/CommonArray.java</url>
+          <url>file://$PROJECT_DIR$/src/miu_4/CommonArray.java</url>
           <line>14</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
-          <url>file://$PROJECT_DIR$/src/miu_practice_2/MercurialArray.java</url>
+          <url>file://$PROJECT_DIR$/src/miu_3/MercurialArray.java</url>
           <line>3</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/miu_practice_again/SquarePairs.java</url>
+          <url>file://$PROJECT_DIR$/src/miu_4/SquarePairs.java</url>
           <line>44</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/miu_practice_again/StantonMeasure.java</url>
+          <url>file://$PROJECT_DIR$/src/miu_4/StantonMeasure.java</url>
           <line>26</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/miu_practice_again/SymmetricArray.java</url>
+          <url>file://$PROJECT_DIR$/src/miu_4/SymmetricArray.java</url>
           <line>30</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/miu_practice_again/SymmetricArray.java</url>
+          <url>file://$PROJECT_DIR$/src/miu_4/SymmetricArray.java</url>
           <line>31</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/miu_againn/NUnique.java</url>
+          <url>file://$PROJECT_DIR$/src/miu_1/NUnique.java</url>
           <line>4</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/miu_againn/LegalNumber.java</url>
+          <url>file://$PROJECT_DIR$/src/miu_1/LegalNumber.java</url>
           <line>5</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/miu_againn/Matches.java</url>
+          <url>file://$PROJECT_DIR$/src/miu_1/Matches.java</url>
           <line>7</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/queue/Queue.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/miu_practice/Factorial.java</url>
+          <url>file://$PROJECT_DIR$/src/miu_2/Factorial.java</url>
           <line>12</line>
-          <properties class="miu_practice.Factorial" method="factorial">
+          <properties class="miu_2.Factorial" method="factorial">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/miu_againn/Centered15.java</url>
+          <url>file://$PROJECT_DIR$/src/miu_1/Centered15.java</url>
           <line>3</line>
-          <properties class="miu_againn.Centered15" method="isCentered15">
+          <properties class="miu_1.Centered15" method="isCentered15">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/miu_againn/PowerOf.java</url>
+          <url>file://$PROJECT_DIR$/src/miu_1/PowerOf.java</url>
           <line>3</line>
-          <properties class="miu_againn.PowerOf" method="isPowerOf">
+          <properties class="miu_1.PowerOf" method="isPowerOf">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
