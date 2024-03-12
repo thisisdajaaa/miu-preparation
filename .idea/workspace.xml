@@ -5,28 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bf2a8ca-c27e-475c-a7ff-3f3b722f7142" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/addAllLinkedLists/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/addAllLinkedLists/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/array_list/ArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/array_list/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/binary_tree/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/binary_tree/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/binary_tree/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/linked_list/DoubleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/linked_list/DoubleNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/linked_list/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/linked_list/SingleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/linked_list/SingleNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/queue/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/queue/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/stack/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/practice/stack/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recursion/MergeTwoLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linked_list_questions/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linked_list_questions/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linked_list_questions/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linked_list_questions/RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linked_list_questions/ReturnNthFromLast.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polymorphism/problem1/EmployeeAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polymorphism/problem1/EmployeeAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/CircularDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/CircularDoublyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
