@@ -10,7 +10,7 @@ public class Queue {
         if (!isFull()) {
             queue[rear] = data;
             size++;
-            rear =(rear + 1) % queue.length;
+            rear = (rear + 1) % queue.length;
             return;
         }
 

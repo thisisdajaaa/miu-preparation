@@ -5,7 +5,6 @@ public class SingleLinkedList {
     public Node tail;
     public int size;
 
-
     public void createSingleLinkedList(int nodeValue) {
         Node node = new Node();
         node.next = null;

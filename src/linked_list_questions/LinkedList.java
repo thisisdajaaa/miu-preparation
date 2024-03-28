@@ -1,7 +1,5 @@
 package linked_list_questions;
 
-import java.util.HashSet;
-import java.util.Set;
 
 public class LinkedList {
     public Node head;
@@ -9,15 +7,20 @@ public class LinkedList {
     public int size;
 
     public void createLL(int nodeValue) {
-        Node node = new Node();
-        node.value = nodeValue;
-        node.next = null;
-        head = node;
-        tail = node;
-        size++;
+        Node newNode = new Node();
+        newNode.value = nodeValue;
+        newNode.next = null;
+        head = newNode;
+        tail = newNode;
+        size = 1;
     }
 
-    public void insert(int nodeValue) {
+    public void insertNode(int nodeValue) {
+        if (head == null) {
+            createLL(nodeValue);
+            return;
+        }
+
         Node newNode = new Node();
         newNode.value = nodeValue;
         newNode.next = null;
@@ -26,21 +29,17 @@ public class LinkedList {
         size++;
     }
 
-    public void traverseLL() {
-        Node currentNode = head;
-
-        while(currentNode != null) {
-            System.out.print(currentNode.value);
-            if (currentNode.next != null) System.out.print(" -> ");
-            currentNode = currentNode.next;
+    public void traversalLL() {
+        Node tempNode = head;
+        for (int i =0; i<size; i++) {
+            System.out.print(tempNode.value);
+            if (i != size -1) {
+                System.out.print(" -> ");
+            }
+            tempNode = tempNode.next;
         }
+        System.out.println("\n");
     }
 
-    public void clearAll() {
-        head.next = null;
-        head = null;
-        tail.next = null;
-        tail = null;
-        size = 0;
-    }
+
 }

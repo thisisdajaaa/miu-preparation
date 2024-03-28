@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bf2a8ca-c27e-475c-a7ff-3f3b722f7142" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/linked_list_questions/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linked_list_questions/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linked_list_questions/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linked_list_questions/RemoveDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linked_list_questions/ReturnNthFromLast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/CircularDoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/CircularDoublyLinkedList.java" afterDir="false" />
-    </list>
+    <list default="true" id="7bf2a8ca-c27e-475c-a7ff-3f3b722f7142" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,9 +119,9 @@
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/queue/Queue.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="53" />
+          <url>file://$PROJECT_DIR$/src/queue/array_queue/Main.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/miu_2/Factorial.java</url>
