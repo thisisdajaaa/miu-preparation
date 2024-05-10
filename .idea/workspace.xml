@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bf2a8ca-c27e-475c-a7ff-3f3b722f7142" name="Changes" comment="" />
+    <list default="true" id="7bf2a8ca-c27e-475c-a7ff-3f3b722f7142" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/stack/practice/animal_shelter/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/practice/animal_shelter/AnimalQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/practice/animal_shelter/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/practice/animal_shelter/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/practice/animal_shelter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/practice/queue_via_stack/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/practice/queue_via_stack/QueueViaStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/practice/stack_of_plates/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/practice/stack_of_plates/SetOfStacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/practice/stack_of_plates/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/practice/stack_of_plates/StackNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +51,10 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.stack.practice.Main.executor": "Run",
+    "Application.stack.practice.animal_shelter.Main.executor": "Run",
     "Application.stack.practice.minFinder.Main.executor": "Run",
+    "Application.stack.practice.queue_via_stack.Main.executor": "Run",
+    "Application.stack.practice.stack_of_plates.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -52,7 +68,7 @@
       <recent name="$PROJECT_DIR$/src/polymorphism/problem1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.stack.practice.animal_shelter.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="queue.linked_list.Main" />
       <module name="data-struct-algo" />
@@ -66,8 +82,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="stack.practice.animal_shelter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.practice.animal_shelter.Main" />
+      <module name="data-struct-algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack.practice.animal_shelter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stack.practice.queue_via_stack.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.practice.queue_via_stack.Main" />
+      <module name="data-struct-algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack.practice.queue_via_stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stack.practice.stack_of_plates.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.practice.stack_of_plates.Main" />
+      <module name="data-struct-algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack.practice.stack_of_plates.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.stack.practice.animal_shelter.Main" />
+        <item itemvalue="Application.stack.practice.queue_via_stack.Main" />
+        <item itemvalue="Application.stack.practice.stack_of_plates.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -175,6 +233,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/stack/practice/stack_of_plates/SetOfStacks.java</url>
+          <line>41</line>
+          <properties class="stack.practice.stack_of_plates.SetOfStacks" method="leftShift">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
