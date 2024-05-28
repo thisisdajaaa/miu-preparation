@@ -44,6 +44,7 @@
     "Application.stack.practice.stack_of_plates.Main.executor": "Run",
     "Application.tree.Main.executor": "Run",
     "Application.tree.basic_tree.Main.executor": "Run",
+    "Application.tree.binary_search_tree.Main.executor": "Debug",
     "Application.tree.binary_tree_ll.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -61,7 +62,7 @@
       <recent name="tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.tree.binary_search_tree.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.binary_tree_array.Main" />
       <module name="data-struct-algo" />
@@ -88,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stack.practice.queue_via_stack.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.practice.queue_via_stack.Main" />
+    <configuration name="tree.basic_tree.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.basic_tree.Main" />
       <module name="data-struct-algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack.practice.queue_via_stack.*" />
+          <option name="PATTERN" value="tree.basic_tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tree.basic_tree.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.basic_tree.Main" />
+    <configuration name="tree.binary_search_tree.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.binary_search_tree.Main" />
       <module name="data-struct-algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.basic_tree.*" />
+          <option name="PATTERN" value="tree.binary_search_tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.tree.binary_search_tree.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.tree.binary_tree_ll.Main" />
         <item itemvalue="Application.tree.basic_tree.Main" />
         <item itemvalue="Application.stack.practice.animal_shelter.Main" />
-        <item itemvalue="Application.stack.practice.queue_via_stack.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -240,6 +241,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/tree/binary_search_tree/BinarySearchTree.java</url>
+          <line>98</line>
+          <properties class="tree.binary_search_tree.BinarySearchTree" method="deleteNode">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
