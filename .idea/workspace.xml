@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bf2a8ca-c27e-475c-a7ff-3f3b722f7142" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/stack/practice/animal_shelter/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/practice/animal_shelter/AnimalQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/practice/animal_shelter/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/practice/animal_shelter/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/practice/animal_shelter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/practice/queue_via_stack/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/practice/queue_via_stack/QueueViaStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/practice/stack_of_plates/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/practice/stack_of_plates/SetOfStacks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/practice/stack_of_plates/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stack/practice/stack_of_plates/StackNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7bf2a8ca-c27e-475c-a7ff-3f3b722f7142" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +42,9 @@
     "Application.stack.practice.minFinder.Main.executor": "Run",
     "Application.stack.practice.queue_via_stack.Main.executor": "Run",
     "Application.stack.practice.stack_of_plates.Main.executor": "Run",
+    "Application.tree.Main.executor": "Run",
+    "Application.tree.basic_tree.Main.executor": "Run",
+    "Application.tree.binary_tree_ll.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -67,14 +57,17 @@
       <recent name="$PROJECT_DIR$/src/polymorphism/problem2" />
       <recent name="$PROJECT_DIR$/src/polymorphism/problem1" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="tree" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.stack.practice.animal_shelter.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.linked_list.Main" />
+      <option name="MAIN_CLASS_NAME" value="tree.binary_tree_array.Main" />
       <module name="data-struct-algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queue.linked_list.*" />
+          <option name="PATTERN" value="tree.binary_tree_array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +101,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stack.practice.stack_of_plates.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.practice.stack_of_plates.Main" />
+    <configuration name="tree.basic_tree.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.basic_tree.Main" />
       <module name="data-struct-algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack.practice.stack_of_plates.*" />
+          <option name="PATTERN" value="tree.basic_tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tree.binary_tree_ll.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.binary_tree_ll.Main" />
+      <module name="data-struct-algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.binary_tree_ll.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,10 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.tree.binary_tree_ll.Main" />
+        <item itemvalue="Application.tree.basic_tree.Main" />
         <item itemvalue="Application.stack.practice.animal_shelter.Main" />
         <item itemvalue="Application.stack.practice.queue_via_stack.Main" />
-        <item itemvalue="Application.stack.practice.stack_of_plates.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -234,16 +241,12 @@
           </properties>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/stack/practice/stack_of_plates/SetOfStacks.java</url>
-          <line>41</line>
-          <properties class="stack.practice.stack_of_plates.SetOfStacks" method="leftShift">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="tree.binary_tree_ll.BinaryNode" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
