@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bf2a8ca-c27e-475c-a7ff-3f3b722f7142" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tree/avl_tree/AvlTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/avl_tree/BinaryNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/avl_tree/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/binary_heap/BinaryHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/binary_heap/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +49,7 @@
     "Application.tree.Main.executor": "Run",
     "Application.tree.avl_tree.Main.executor": "Run",
     "Application.tree.basic_tree.Main.executor": "Run",
+    "Application.tree.binary_heap.Main.executor": "Run",
     "Application.tree.binary_search_tree.Main.executor": "Debug",
     "Application.tree.binary_tree_ll.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -68,7 +68,7 @@
       <recent name="tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.tree.avl_tree.Main">
+  <component name="RunManager" selected="Application.tree.binary_heap.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.binary_tree_array.Main" />
       <module name="data-struct-algo" />
@@ -95,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tree.basic_tree.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.basic_tree.Main" />
+    <configuration name="tree.binary_heap.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.binary_heap.Main" />
       <module name="data-struct-algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.basic_tree.*" />
+          <option name="PATTERN" value="tree.binary_heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.tree.binary_heap.Main" />
         <item itemvalue="Application.tree.avl_tree.Main" />
         <item itemvalue="Application.tree.binary_search_tree.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.tree.binary_tree_ll.Main" />
-        <item itemvalue="Application.tree.basic_tree.Main" />
       </list>
     </recent_temporary>
   </component>
